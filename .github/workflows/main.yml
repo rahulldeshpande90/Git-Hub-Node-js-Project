@@ -17,8 +17,8 @@ jobs:
 
 
       - name: BUILD
-        uses: npm ci
+        run: npm ci
 
       - name: TEST
-        uses: echo code is tested !!!
+        run: echo code is tested !!!
 
